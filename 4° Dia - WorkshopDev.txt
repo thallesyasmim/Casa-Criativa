@@ -1,0 +1,93 @@
+Back-end
+   - Responsabilidades
+	- Receber pedidos do cliente
+	- Devolver resposta para o cliente
+	- Regras de negócio
+	- Dados
+
+   - Tecnologias Utilizadas
+	- Node.js
+	- Banco de dados
+
+
+Para executar o Node.js usamos node nomedoarquivo.js no terminal.
+
+// Variáveis ??
+
+/*const mensagem = "Oi, como vai?" string
+const num = 2.5 Number
+
+console.log(mensagem)
+console.log(num)*/
+
+function somar(numero1, numero2){
+   /* const numero1 = 10
+    const numero2 = 20*/
+
+    return numero1 + numero2
+}
+
+const soma = somar(10, 20)
+console.log(somar(5, 5))
+console.log(soma)
+
+
+// Objeto ??
+
+const xicara = {
+    cor: "branco", // Propriedades do meu objeto
+    tamanho: 10,
+
+    estaSujo(simNao) { // Funcionalidade do meu objeto
+       console.log(simNao) // Lógica de programação
+    }
+
+}
+
+xicara.estaSujo("sim")
+
+const cor = "roxo"
+const tamanho = 5.5
+function sujo(esta){
+    console.log(esta)
+}
+
+const xicara2 = {
+    cor,
+    tamanho,
+    sujo // Se colocarmos o sujo() assim, já estou pedindo que ele execute, e não é o que queremos
+}
+
+
+npm init -y para criar o servidor
+
+.json - JavaScript object ...
+
+Executando pelo npm - npm start
+
+Fazendo o servidor - npm i express
+
+Utilizando o express
+
+const express = require('express') - Require (preciso, dependo)
+
+Pegando a função express, const server = express()
+
+server.listen(3000) - está ouvindo a porta 3000 do localhost ou IP da máquina)
+
+
+npm i nodemon - para que o servidor de o refresh automático
+(monitoramento do node)
+
+Vá em package.json e no "start": colocoque o nodemon antes
+
+npm run dev
+
+npm i nunjucks - permite que criemos variáveis no HTML
+
+const latinhas = [ // Array com objetos
+
+	{ marca: "coca" }
+	{ marca: "pepsi"}
+
+]

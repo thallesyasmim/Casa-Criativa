@@ -1,0 +1,21 @@
+	1° Refatorar - Pegar código que está pronto e melhorar ele
+
+Display - como o elemnto será mostrado na tela
+
+Display: block - O elemnto vai ocupar toda linha, quebrar e ir pra baixo (o próximo elemento)
+
+Display: inline-block - Um elemnto ao lado do outro (Como por padrão os buttons)
+
+A cascata tem mais força, por exemplo:
+
+body #conatiner{
+
+   background: green;
+}
+
+é mais forte do que:
+
+#conatiner{
+
+   background: red;
+}

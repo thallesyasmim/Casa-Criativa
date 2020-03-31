@@ -1,0 +1,27 @@
+ Banco de Dados
+   - Dados não podem ficar na aplicação
+   - Perder/Corromper
+   - Segurança
+   - Resposanbilidades 
+
+ SQL
+   - Structered Query Language
+   - Linguagem para consultarc criar, atualizar, listar, deletar e muito mais...
+   - Tabelas/Entidades/Relações - Colunas e Linhas
+  
+
+ Teconologia Utilizada
+   - SQLite
+   - SQLite é open-source, não precisa de um mundo de configurações
+é estruturado´para ser um banco de dados relacional que reside na própria aplicação.
+   - PERFEITO para quem está começando no mundo SQL
+
+Instalação sqlite - npm i sqlite3
+
+Callback - uma função que passa dentro de outra função
+
+Validações temos que ter no front-end e no back-end.
+
+Rodar back-end : npm run dev
+
+rodar somente o db.js : node db.js

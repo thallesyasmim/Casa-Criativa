@@ -1,0 +1,29 @@
+1° Introdução à programação WEB
+	- O que é programação?
+		- Ensinar o computador
+			- Algoritmos
+				- Passo a Passo
+				- Conjunto de regras
+			- Lógica de programação
+				- Maneira de pensar
+			- Sintaxe
+				- Maneira correta de escrever
+	- Qual linguagem de programação?
+		- JavaScript
+	- Ambiente de desenvolvimento
+		- Visual Studio Code
+		- Node.js
+		- Chrome
+	- Front-end e Back-end
+		- imagine que
+			- Cliente chama, servidor escuta e response
+		- Como é feita a comunicação?
+			- HTTP - Hyper Text Transfer Protocol
+			- URL 
+			-Troca de Dados
+		- Tecnologias
+			- HTML
+			- CSS
+			- JS
+		- Apresentação do projeto
+		- Introdução ao HTML, CSS e JS
